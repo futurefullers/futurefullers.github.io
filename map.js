@@ -1,6 +1,6 @@
 /* jshint globalstrict: true, undef: true, unused: true, esversion: 6 */
 /* global $, google */
-/* exported mapper, hotelMap, travelMap */
+/* exported mapper, hotelMap, travelMap, chicagoMap */
 'use strict';
 
 /**
@@ -30,7 +30,7 @@ var mapper = {
     base: function ($selector, options={}) {
         var map;
         map =  new google.maps.Map($selector[0], {
-            zoom: 15,
+            zoom: options.hasOwnProperty('zoom') ? options.zoom : 15,
             center: options.hasOwnProperty('center') ? options.center : this.data.locations.center,
             styles: this.data.style,
             scrollwheel: false,
@@ -64,6 +64,7 @@ var mapper = {
         marker = new google.maps.Marker({
             map: options.map,
             position: options.position,
+            animation: google.maps.Animation.DROP,
             icon: {
                 labelOrigin: new google.maps.Point(0, -25),
                 path: this.data.pins.square,
@@ -128,11 +129,11 @@ function hotelMap () {
  * Called on load of travel page.
  */
 function travelMap () {
-    var airport, parking;
+    var airport, train, parking;
     airport = mapper.base($('.airport-map'), {
-        center: mapper.data.locations.airport_center
+        center: mapper.data.locations.airport_center,
+        zoom: 11
     });
-    airport.zoom = 11;
     mapper.marker({
         map: airport,
         position: mapper.data.locations.ohare,
@@ -155,5 +156,16 @@ function travelMap () {
         icon: 'local_parking',
         color: colors.navy,
         info: mapper.data.info.palmer
+    });
+    train = mapper.base($('.train-map'));
+}
+
+/**
+ * Called on load of Chicago guide page.
+ */
+function chicagoMap () {
+    var map = mapper.base($('.chicago-map'), {
+        center: mapper.data.locations.guide_center,
+        zoom: 12
     });
 }
