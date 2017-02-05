@@ -1,6 +1,6 @@
 /* jshint globalstrict: true, undef: true, unused: true, esversion: 6 */
 /* global $, google */
-/* exported mapper, hotelMap, travelMap, chicagoMap */
+/* exported mapper, hotelMap, travelMap, chicagoMap, weddingMap */
 'use strict';
 
 /**
@@ -13,9 +13,7 @@ var colors = {
     champagne: '#f0e68c',
     cta: {
         blue: '#00a1de',
-        green: '#009b3a',
-        orange: '#f9461c',
-        red: '#c60c30'
+        orange: '#f9461c'
     }
 };
 
@@ -164,8 +162,15 @@ function travelMap () {
  * Called on load of Chicago guide page.
  */
 function chicagoMap () {
-    var map = mapper.base($('.chicago-map'), {
+    mapper.base($('.chicago-map'), {
         center: mapper.data.locations.guide_center,
         zoom: 12
     });
+}
+
+/**
+ * Called on load of wedding page.
+ */
+function weddingMap () {
+    mapper.base($('.wedding-map'));
 }
