@@ -1,0 +1,63 @@
+$black: #222;
+$gray: #444;
+$light-gray: #666;
+$white: #fff;
+$red: #d9534f;
+$orange: #ff851b;
+$yellow: #f0ad4e;
+$green: #449d44;
+$blue: #5bc0de;
+$purple: #383294;
+$cta-blue: #00a1de;
+$cta-green: #009b3a;
+$cta-orange: #f9461c;
+$cta-red: #c60c30;
+
+@import url('https://fonts.googleapis.com/css?family=Allura|Roboto:300,400,700');
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  text-align: center;
+}
+
+p,
+li {
+  color: $gray;
+}
+
+h1,
+h2,
+h3 {
+  color: $black;
+  margin-top: 10px;
+}
+
+%lazy {
+  opacity: 0;
+  transition: opacity .5s ease-in;
+}
+
+.cursive {
+  font-family: 'Allura', cursive;
+}
+
+.spacer {
+  padding-top: 100px;
+}
+
+.row-space {
+  margin-top: 20px;
+}
+
+.map-icon-label .map-icon {
+  color: $white;
+  font-size: 24px;
+  line-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+}

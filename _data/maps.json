@@ -1,0 +1,59 @@
+{
+    "key": "AIzaSyACXvNiWSPgat9v524SOX1LE_uO7kGH2dY",
+    "style": [
+        {"elementType": "geometry", "stylers": [{"color": "#f5f5f5"}]},
+        {"elementType": "labels.icon", "stylers": [{"visibility": "off"}]},
+        {"elementType": "labels.text.fill", "stylers": [{"color": "#616161"}]},
+        {"elementType": "labels.text.stroke", "stylers": [{"color": "#f5f5f5"}]},
+        {"elementType": "labels.text.fill", "featureType": "administrative.land_parcel", "stylers": [{"color": "#bdbdbd"}]},
+        {"elementType": "geometry", "featureType": "poi", "stylers": [{"color": "#eeeeee"}]},
+        {"elementType": "labels.text.fill", "featureType": "poi", "stylers": [{"color": "#757575"}]},
+        {"elementType": "geometry", "featureType": "poi.park", "stylers": [{"color": "#e5e5e5"}]},
+        {"elementType": "labels.text.fill", "featureType": "poi.park", "stylers": [{"color": "#9e9e9e"}]},
+        {"elementType": "geometry", "featureType": "road", "stylers": [{"color": "#ffffff"}]},
+        {"elementType": "labels.text.fill", "featureType": "road.arterial", "stylers": [{"color": "#757575"}]},
+        {"elementType": "geometry", "featureType": "road.highway", "stylers": [{"color": "#dadada"}]},
+        {"elementType": "labels.text.fill", "featureType": "road.highway", "stylers": [{"color": "#616161"}]},
+        {"elementType": "labels.text.fill", "featureType": "road.local", "stylers": [{"color": "#9e9e9e"}]},
+        {"elementType": "geometry", "featureType": "transit.line", "stylers": [{"color": "#e5e5e5"}]},
+        {"elementType": "geometry", "featureType": "transit.station", "stylers": [{"color": "#eeeeee"}]},
+        {"elementType": "geometry", "featureType": "water", "stylers": [{"color": "#c9c9c9"}]},
+        {"elementType": "labels.text.fill", "featureType": "water", "stylers": [{"color": "#9e9e9e"}]}
+    ],
+    "locations": {
+        "center": {"lat": 41.888, "lng": -87.630},
+        "airport_center": {"lat": 41.888, "lng": -87.7},
+        "reception": {"lat": 41.880947, "lng": -87.624957},
+        "church": {"lat": 41.890569, "lng": -87.636351},
+        "palmer": {"lat": 41.880604, "lng": -87.627},
+        "university": {"lat": 41.8823, "lng": -87.624957},
+        "residence": {"lat": 41.881600, "lng": -87.632197},
+        "ohare": {"lat": 41.974162, "lng": -87.907321},
+        "midway": {"lat": 41.786776, "lng": -87.752188}
+    },
+    "info": {
+        "reception": "<p style=\"margin-bottom: 0; font-weight: 700;\">Reception</p>",
+        "church": "<p style=\"margin-bottom: 0; font-weight: 700;\">Church</p>",
+        "palmer": "<img style=\"margin-top: 15px; width: 300px;\" src=\"img/palmer.png\">
+                   <h3>The Palmer House Hilton</h3>
+                   <p><i>A block from the reception!<br/>An iconic Chicago hotel!<br/>Hilton Points!</i></p>
+                   <p>Book <a href=\"https://aws.passkey.com/go/RochFuller\" target=\"_blank\">online</a> or call
+                   <span style=\"font-family: monospace; font-weight: 700;\">(877)865-5321</span>
+                   using code <span style=\"font-family: monospace; font-weight: 700;\">R1W</span>.</p>",
+        "university": "<img style=\"margin-top: 15px; width: 300px;\" src=\"img/club.png\">
+                       <h3>University Club</h3>
+                       <p><i>Same place as the reception!<br/>Renovated room!<br/>We are staying here!<br/>Weird rules about 'no jeans' during the week!</i></p>
+                       <p>Call <span style=\"font-family: monospace; font-weight: 700;\">(312)726-2840</span>, ask for guest room reservations, and mention our wedding.</p>",
+        "residence": "<img style=\"margin-top: 15px; width: 300px;\" src=\"img/residence.png\">
+                      <h3>The Residence Inn Chicago Downtown/Loop</h3>
+                      <p><i>4.5 blocks (0.4 mi) from the reception!<br/>Newer hotel!<br/>Marriott Points!</i></p>
+                      <p>Book <a href=\"http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Rocheleau%20-%20Fuller%20Wedding%5Echirl%60rfwrfwa%60212.00%60USD%60false%604%6011/2/17%6011/5/17%6010/12/17&app=resvlink&stop_mobi=yes\" target=\"_blank\">
+                      online</a> or call <span style=\"font-family: monospace; font-weight: 700;\">(800)228-9290</span> and mention our wedding.</p>",
+        "ohare": "<p style=\"margin-bottom: 0; font-weight: 700;\">O'Hare</p>",
+        "midway": "<p style=\"margin-bottom: 0; font-weight: 700;\">Midway</p>",
+    },
+    "pins": {
+        "square": "M22-48h-44v43h16l6 5 6-5h16z",
+        "regular": "M0-48c-9.8 0-17.7 7.8-17.7 17.4 0 15.5 17.7 30.6 17.7 30.6s17.7-15.4 17.7-30.6c0-9.6-7.9-17.4-17.7-17.4z"
+    }
+}

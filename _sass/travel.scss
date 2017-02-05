@@ -1,0 +1,22 @@
+.travel-info {
+  > h1 {
+    font-size: 48px;
+  }
+
+  > p {
+    text-align: justify;
+  }
+}
+
+.ohare {
+  color: $cta-blue;
+}
+
+.midway {
+  color: $cta-orange;
+}
+
+.airport-map,
+.parking-map {
+  height: 500px;
+}

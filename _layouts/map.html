@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<script src="/map.js"></script>
+<script>mapper.data = {{ site.data.maps | jsonify }};</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.data.maps.key }}&callback={{ page.callback }}"></script>
