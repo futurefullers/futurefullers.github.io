@@ -1,7 +1,7 @@
 $black: #222;
 $gray: #444;
 $light-gray: #666;
-$offwhite: #d4d4d4;
+$offwhite: #c9c9c9;
 $white: #fff;
 
 $navy: #005;
@@ -49,6 +49,16 @@ h3 {
 
 .row-space {
   margin-top: 20px;
+}
+
+.map-container {
+  background-clip: content-box;
+  background-color: $offwhite;
+}
+
+.map {
+  height: 600px;
+  visibility: hidden;
 }
 
 .map-icon-label .map-icon {

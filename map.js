@@ -1,5 +1,5 @@
 /* jshint globalstrict: true, undef: true, unused: true, esversion: 6 */
-/* global $, google */
+/* global setTimeout, $, google */
 /* exported mapper, hotelMap, travelMap, chicagoMap, weddingMap */
 'use strict';
 
@@ -51,6 +51,11 @@ var mapper = {
             color: colors.champagne,
             info: this.data.info.reception
         });
+
+        // Fading in. Delay is due to lack of handler on map loading.
+        // 'visibility' property is used to keep div size constant.
+        setTimeout(() => $selector.css('visibility', 'visible').hide().fadeIn(500), 500);
+
         return map;
     },
 
@@ -62,7 +67,6 @@ var mapper = {
         marker = new google.maps.Marker({
             map: options.map,
             position: options.position,
-            animation: google.maps.Animation.DROP,
             icon: {
                 labelOrigin: new google.maps.Point(0, -25),
                 path: this.data.pins.square,
