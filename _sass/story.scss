@@ -106,7 +106,19 @@
 
 .timeline-title {
   color: $black;
-  font-size: 48px;
+  font-size: 24px;
+
+  @media (min-width: 768px) {
+    font-size: 48px;
+  }
+}
+
+.timeline-body > p {
+  font-size: 10px;
+
+  @media (min-width: 576px) {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 767px) {

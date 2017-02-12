@@ -9,6 +9,34 @@
   text-transform: uppercase;
 }
 
+.small-title {
+  float: left;
+  margin-top: 10px;
+
+  > a {
+    color: $black;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 150%;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+}
+
+.small-date {
+  color: $black;
+  font-size: 8px;
+  margin-bottom: 0;
+  margin-top: -17px;
+  padding-right: 10px;
+
+  @media (min-width: 768px) {
+    margin-top: -19px;
+    padding-right: 15px;
+  }
+}
+
 .navbar-title {
   font-size: 48px;
   margin: 10px;
