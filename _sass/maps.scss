@@ -1,0 +1,26 @@
+.map-container {
+  background-clip: content-box;
+  background-color: $offwhite;
+}
+
+.map {
+  height: 600px;
+  visibility: hidden;
+}
+
+.map-icon-label .map-icon {
+  color: $white;
+  font-size: 24px;
+  line-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.map-image {
+  height: 150px;
+  margin-top: 15px;
+}
+
+.travel-map {
+  height: 500px;
+}
