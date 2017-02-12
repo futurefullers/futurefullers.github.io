@@ -5,5 +5,18 @@ layout: default
 {{ content }}
 
 <script src="/map.js"></script>
-<script>mapper.data = {{ site.data.maps | jsonify }};</script>
+<script>
+    var img;
+    mapper.data = {{ site.data.maps | jsonify }};
+
+    mapper.data.info = {};
+  {% for marker in site.data.markers %}
+    mapper.data.locations['{{ marker.key }}'] = {{ marker.location | jsonify }};
+    mapper.data.info['{{ marker.key }}'] = `{{ marker.content | markdownify }}`;
+  {% if marker.image %}
+    img = `<img class="map-image" src="{{ marker.image }}" srcset="${'{{ marker.image }}'.replace('.', '@2x.')} 2x">`;
+    mapper.data.info['{{ marker.key }}'] = img + mapper.data.info['{{ marker.key }}'];
+  {% endif %}
+  {% endfor %}
+</script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.data.maps.key }}&callback={{ page.callback }}"></script>

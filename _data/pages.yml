@@ -1,0 +1,71 @@
+story:
+    - year: 1988
+      header: The Beginning
+      content: They were born! Him in April and Her in May.
+      images:
+          - /img/story/kelly_baby.jpg
+          - /img/story/pat_baby.jpg
+    - year: 2010
+      header: Wicked Smaht
+      content: |
+        They graduated college (Pat - Lehigh. Kelly - WashU) and moved to Chicago!
+        Him to get his graduate degree from Northwestern and Her to begin her
+        career at PNC.
+      images:
+          - /img/story/kelly_college.jpg
+          - /img/story/pat_college.jpg
+    - year: 2011
+      header: They Meet
+      content: |
+        At a small Mexican joint in Chicago called Mayan Palace where a few mutual
+        friends were meeting for a margarita at the "driving range" before beginning
+        an adventurous night of pub golf. This was the beginning of a beautiful
+        relationship.
+      image: /img/story/trolley.jpg
+    - year: 2012
+      header: First Date
+      content: |
+        After realizing there might be more to this than friendship, Pat worked
+        up the nerve to ask Kelly on a date to his favorite spot - Crisp -
+        a small Korean BBQ wings place. Despite Kelly's non-existent spice
+        tolerance and Pat's planning abilities (the place closed as they
+        were ordering food), it was the start of something wonderful.
+      image: /img/story/block.jpg
+    - year: ...
+      header: The Love Grows
+      content: Fast forward a few fantastic years.
+      image: /img/story/brett_wedding.jpg
+    - year: 2016
+      header: Let's Get Hitched
+      content: They Got Engaged!
+      image: /img/engagement.jpg
+wedding: |
+    Wedding.
+chicago: |
+    Guide!
+accommodations: |
+    For the convenience and comfort of our guests, we have reserved
+    blocks of hotel rooms at three different locations and we wanted
+    to pass on relevant information - listed below in order of
+    distance closest to the reception.
+
+    Three things to note are:
+
+     1. There are going to be large conventions in Chicago the same week as our wedding so hotel rooms will sell fast
+     2. If you plan to check in on Friday, you may want to request early check-in due to the early start time
+     3. There will be shuttles available to take guests from hotels to the ceremony and back!
+
+    If you do intend on coming (and we’re hoping you do),
+    please reserve before September 15th.
+travel:
+    planes: |
+        ## From O'Hare
+        Take the <span class="ohare">blue line</span> into the city.
+
+        ## From Midway
+        Take the <span class="midway">orange line</span> into the city.
+    trains: |
+        Train stations exist.
+    automobiles: |
+        You really shouldn't be driving.
+no_img: data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=

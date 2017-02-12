@@ -27,6 +27,11 @@ li {
   color: $gray;
 }
 
+li {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
 h1,
 h2,
 h3 {
@@ -41,6 +46,11 @@ h3 {
 
 .cursive {
   font-family: 'Allura', cursive;
+}
+
+.mono {
+  font-family: monospace;
+  font-weight: 700;
 }
 
 .spacer {
@@ -67,4 +77,9 @@ h3 {
   line-height: 48px;
   text-align: center;
   white-space: nowrap;
+}
+
+.map-image {
+  height: 150px;
+  margin-top: 15px;
 }

@@ -24,34 +24,6 @@
         "center": {"lat": 41.888, "lng": -87.630},
         "airport_center": {"lat": 41.888, "lng": -87.7},
         "guide_center": {"lat": 41.9013215, "lng": -87.6341791},
-        "reception": {"lat": 41.880947, "lng": -87.624957},
-        "church": {"lat": 41.890569, "lng": -87.636351},
-        "palmer": {"lat": 41.880604, "lng": -87.627},
-        "university": {"lat": 41.8823, "lng": -87.624957},
-        "residence": {"lat": 41.881600, "lng": -87.632197},
-        "ohare": {"lat": 41.974162, "lng": -87.907321},
-        "midway": {"lat": 41.786776, "lng": -87.752188}
-    },
-    "info": {
-        "reception": "<p style=\"margin-bottom: 0; font-weight: 700;\">Reception</p>",
-        "church": "<p style=\"margin-bottom: 0; font-weight: 700;\">Church</p>",
-        "palmer": "<img style=\"margin-top: 15px; height: 150px;\" src=\"img/accomodations/palmer.png\" srcset=\"img/accomodations/palmer@2x.png 2x\">
-                   <h3>The Palmer House Hilton</h3>
-                   <p><i>A block from the reception!<br/>An iconic Chicago hotel!<br/>Hilton Points!</i></p>
-                   <p>Book <a href=\"https://aws.passkey.com/go/RochFuller\" target=\"_blank\">online</a> or call
-                   <span style=\"font-family: monospace; font-weight: 700;\">(877)865-5321</span>
-                   using code <span style=\"font-family: monospace; font-weight: 700;\">R1W</span>.</p>",
-        "university": "<img style=\"margin-top: 15px; height: 150px;\" src=\"img/accomodations/club.png\" srcset=\"img/accomodations/club@2x.png 2x\">
-                       <h3>University Club</h3>
-                       <p><i>Same place as the reception!<br/>Renovated room!<br/>We are staying here!<br/>Weird rules about 'no jeans' during the week!</i></p>
-                       <p>Call <span style=\"font-family: monospace; font-weight: 700;\">(312)726-2840</span>, ask for guest room reservations, and mention our wedding.</p>",
-        "residence": "<img style=\"margin-top: 15px; height: 150px;\" src=\"img/accomodations/residence.png\" srcset=\"img/accomodations/residence@2x.png 2x\">
-                      <h3>The Residence Inn Chicago Downtown/Loop</h3>
-                      <p><i>4.5 blocks (0.4 mi) from the reception!<br/>Newer hotel!<br/>Marriott Points!</i></p>
-                      <p>Book <a href=\"http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Rocheleau%20-%20Fuller%20Wedding%5Echirl%60rfwrfwa%60212.00%60USD%60false%604%6011/2/17%6011/5/17%6010/12/17&app=resvlink&stop_mobi=yes\" target=\"_blank\">
-                      online</a> or call <span style=\"font-family: monospace; font-weight: 700;\">(800)228-9290</span> and mention our wedding.</p>",
-        "ohare": "<p style=\"margin-bottom: 0; font-weight: 700;\">O'Hare</p>",
-        "midway": "<p style=\"margin-bottom: 0; font-weight: 700;\">Midway</p>",
     },
     "pins": {
         "square": "M22-48h-44v43h16l6 5 6-5h16z",

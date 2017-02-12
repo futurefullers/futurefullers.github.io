@@ -1,0 +1,70 @@
+  - key: church
+    location:
+        lat: 41.890569
+        lng: -87.636351
+    content: |
+        #### Church
+
+  - key: reception
+    location:
+        lat: 41.880947
+        lng: -87.624957
+    content: |
+        #### Reception
+
+  - key: palmer
+    location:
+        lat: 41.880604
+        lng: -87.627
+    image: img/accomodations/palmer.png
+    content: |
+        ### The Palmer House Hilton
+        *A block from the reception!*<br/>
+        *An iconic Chicago hotel!*<br/>
+        *Hilton Points!*
+
+        Book [online](https://aws.passkey.com/go/RochFuller) or call
+        <span class="mono">(877)865-5321</span>
+        using code <span class="mono">R1W</span>.
+
+  - key: university
+    location:
+        lat: 41.8823
+        lng: -87.624957
+    image: img/accomodations/club.png
+    content: |
+        ### University Club
+        *Same place as the reception!*<br/>
+        *Renovated room!*<br/>
+        *We are staying here!*<br/>
+        *Weird rules about 'no jeans' during the week!*
+
+        Call <span class="mono">(312)726-2840</span>, ask for guest room reservations, and mention our wedding.
+
+  - key: residence
+    location:
+        lat: 41.8816
+        lng: -87.632197
+    image: img/accomodations/residence.png
+    content: |
+        ### The Residence Inn Chicago Downtown/Loop
+        *4.5 blocks (0.4 mi) from the reception!*<br/>
+        *Newer hotel!*<br/>
+        *Marriott Points!*
+
+        Book [online](http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Rocheleau%20-%20Fuller%20Wedding%5Echirl%60rfwrfwa%60212.00%60USD%60false%604%6011/2/17%6011/5/17%6010/12/17&app=resvlink&stop_mobi=yes)
+        or call <span class="mono">(800)228-9290</span> and mention our wedding.
+
+  - key: ohare
+    location:
+        lat: 41.974162
+        lng: -87.907321
+    content: |
+        #### O'Hare
+
+  - key: midway
+    location:
+        lat: 41.786776
+        lng: -87.752188
+    content: |
+        #### Midway
