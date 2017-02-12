@@ -1,0 +1,19 @@
+---
+title: Accommodations | The Future Fullers
+layout: map
+callback: hotelMap
+permalink: /accommodations
+---
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-4 accommodations-info">
+            <h1 class="cursive">{{ site.data.accommodations.header }}</h1>
+          {% for paragraph in site.data.accommodations.content %}
+            <p>{{ paragraph }}</p>
+          {% endfor %}
+        </div>
+        <div class="col-xs-12 col-md-8 map-container">
+            <div class="map hotel-map"></div>
+        </div>
+    </div>
+</div>
