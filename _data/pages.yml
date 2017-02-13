@@ -1,44 +1,71 @@
 story:
     - year: 1988
       header: The Beginning
-      content: They were born! Him in April and Her in May.
       images:
           - /img/story/kelly_baby.jpg
           - /img/story/pat_baby.jpg
+      content: They were born! Him in April and Her in May.
     - year: 2010
       header: Wicked Smaht
+      images:
+        - /img/story/kelly_college.jpg
+        - /img/story/pat_college.jpg
       content: |
-        They graduated college (Pat - Lehigh. Kelly - WashU) and moved to Chicago!
+        They graduated college (Pat from Lehigh, Kelly from WashU) and moved to Chicago!
         Him to get his graduate degree from Northwestern and Her to begin her
         career at PNC.
-      images:
-          - /img/story/kelly_college.jpg
-          - /img/story/pat_college.jpg
     - year: 2011
       header: They Meet
+      image: /img/story/trolley.jpg
       content: |
         At a small Mexican joint in Chicago called Mayan Palace where a few mutual
         friends were meeting for a margarita at the "driving range" before beginning
         an adventurous night of pub golf. This was the beginning of a beautiful
         relationship.
-      image: /img/story/trolley.jpg
     - year: 2012
       header: First Date
+      image: /img/story/block.jpg
       content: |
         After realizing there might be more to this than friendship, Pat worked
         up the nerve to ask Kelly on a date to his favorite spot - Crisp -
         a small Korean BBQ wings place. Despite Kelly's non-existent spice
         tolerance and Pat's planning abilities (the place closed as they
         were ordering food), it was the start of something wonderful.
-      image: /img/story/block.jpg
     - year: ...
       header: The Love Grows
-      content: Fast forward a few fantastic years.
       image: /img/story/brett_wedding.jpg
+      content: Fast forward a few fantastic years.
     - year: 2016
       header: Let's Get Hitched
-      content: They Got Engaged!
       image: /img/engagement.jpg
+      content: |
+        They get engaged!
+
+        **His Story:** The planning of the proposal started *many* months before the day.
+        The main requirement for me was that it take place in London (Kelly's absolute
+        favorite place). The plan was to softly suggest the trip idea to Kelly, then
+        let her love of planning take over. It worked perfectly. Her parents were
+        very eager to help, and, over the next  months, we all struggled to keep
+        her oblivious to the plans. There were too many near misses to count, but
+        we all somehow made it to London without the surprise ruined. By the time
+        I asked the question, I was as relieved as I was excited.
+
+        **Her Story:** I love London and I couldn't wait to show Pat the
+        city. My parents needed to be in town for work, so we combined trips! As
+        all of us were walking back from dinner the night before, my dad asks us
+        "Want to have wine and cheese in the park tomorrow?" I immediately respond
+        with a quick yes, because that combination sounds fantastic. Fast forward
+        to the next day, Pat and I are running late (as usual) to meet them in the
+        park, so I'm feeling bad and speed walking to the meeting point. We get to
+        the meeting bench and they aren't there yet. Yay! We aren't the late ones!
+        Unbeknownst to me, my parents have been hiding in some bushes for the last
+        half hour, waiting to take pictures. We sit down. Pat's out of breath due
+        to the jogging, so I get the wine started. After the glasses are poured,
+        Pat puts his arm around me and says "It's time...", it's a blur, and the
+        rest is history!
+
+
+
 
 wedding: |
     ### Our Ceremony

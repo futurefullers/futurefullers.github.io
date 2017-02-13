@@ -14,7 +14,7 @@ permalink: /story
                     <h4 class="timeline-title cursive">{{ event.header }}</h4>
                 </div>
                 <div class="timeline-body">
-                    <p>{{ event.content }}</p>
+                    {{ event.content | markdownify }}
                   {% if event.image %}
                     <img class="lazy" width="100%" src="{{ site.data.pages.no_img }}" data-src="{{ event.image }}" />
                   {% elsif event.images %}
