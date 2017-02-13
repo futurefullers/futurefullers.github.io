@@ -178,9 +178,15 @@ function travelMap () {
  * Called on load of Chicago guide page.
  */
 function chicagoMap () {
-    mapper.base($('.chicago-map'), {
-        center: mapper.data.locations.guide_center,
-        zoom: 12
+    var map = mapper.base($('.chicago-map'));
+    ['cindys', 'millers', 'gage', 'kilt', 'blonde'].forEach(key => {
+        mapper.marker({
+            map: map,
+            position: mapper.data.locations[key],
+            icon: 'local_bar',
+            color: colors.navy,
+            info: mapper.data.info[key]
+        });
     });
 }
 

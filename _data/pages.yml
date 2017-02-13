@@ -39,6 +39,7 @@ story:
       header: Let's Get Hitched
       content: They Got Engaged!
       image: /img/engagement.jpg
+
 wedding: |
     ### Our Ceremony
 
@@ -67,7 +68,20 @@ wedding: |
     the area. Please refer to the [Chicago Guide](/chicago) for some bar recommendations.
 
 chicago: |
-    Guide!
+    *We will be filling this in over time so check back soon!*
+
+    Pat and Kelly love to explore, eat, and drink around Chicago. We would love
+    for you to try some of our favorite spots, so you can fall in love with
+    Chicago too. Everything is accessible by public transportation
+    (L or bus - $2.25 a ride), as well as cab.
+
+    To the right, you will find:
+
+     1. Recommended bars to spend time between the Ceremony and the Reception
+     2. Recommended restaurants to eat at on non-wedding nights (to be added)
+     3. Recommended bars to celebrate at on any night (to be added)
+     4. Recommended Chicago attractions if you have extra time (to be added)
+
 accommodations: |
     For the convenience and comfort of our guests, we have reserved
     blocks of hotel rooms at three different locations and we wanted
@@ -81,6 +95,7 @@ accommodations: |
 
     If you do intend on coming (and we’re hoping you do),
     please reserve before September 15th.
+
 travel:
     planes: |
         We are close to both Chicago airports (17 miles from O'Hare and 11 miles
