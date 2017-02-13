@@ -40,14 +40,38 @@ story:
       content: They Got Engaged!
       image: /img/engagement.jpg
 wedding: |
-    Wedding.
+    ### Our Ceremony
+
+    The wedding will begin at **3:00 p.m.** on Friday, November 3rd at
+    **Assumption Catholic Church**.
+
+    ### Our Reception
+
+    The reception will be at the **University Club of Chicago** with a cocktail hour
+    beginning at **5:30/6:00 p.m.** (to be finalized soon!), to be followed with
+    dinner, drinks, dancing and an after party.
+
+    ### Attire
+
+    We recommend long or short cocktail dresses and suits.
+
+    ### Transportation
+
+    Shuttles will be provided from the recommended hotels to the church and back.
+    If you are not staying at the hotels, you are still welcome to ride the shuttles.
+
+    ### In Between Time
+
+    There may be some in between the ceremony and the reception. We would
+    recommend either relaxing back at your hotel room or posting up at a bar in
+    the area. Please refer to the [Chicago Guide](/chicago) for some bar recommendations.
+
 chicago: |
     Guide!
 accommodations: |
     For the convenience and comfort of our guests, we have reserved
     blocks of hotel rooms at three different locations and we wanted
-    to pass on relevant information - listed below in order of
-    distance closest to the reception.
+    to pass on relevant information.
 
     Three things to note are:
 
@@ -59,13 +83,42 @@ accommodations: |
     please reserve before September 15th.
 travel:
     planes: |
-        ## From O'Hare
-        Take the <span class="ohare">blue line</span> into the city.
+        We are close to both Chicago airports (17 miles from O'Hare and 11 miles
+        from Midway). Each airport is easily accessible by subway or taxi, so they're
+        both good choices. From the airport, we highly recommend the "L" for
+        cost and ease of use.
 
-        ## From Midway
-        Take the <span class="midway">orange line</span> into the city.
+        If you decide to take a cab, be sure to incorporate traffic into your
+        travel time. You can also take Uber or Lyft to save some money.
+
+        #### O'Hare
+
+        ###### Chicago's main airport with most airlines
+
+        Follow the signs through O'Hare to the <span class="ohare">CTA Blue Line</span> train.
+        Take CTA downtown to <span class="ohare">Monroe</span> stop (for University Club/Palmer House)
+        or <span class="ohare">Washington</span> (for Residence Inn).
+        Short walk to all recommended hotels (~0.25 miles).
+
+        #### Midway
+
+        ###### Chicago's other airport (Pat prefers it)
+
+        Follow the signs through Midway to the <span class="midway">CTA Orange Line</span> train.
+        Take CTA downtown to <span class="midway">Adams/Wabash</span> (for University Club/Palmer House)
+        or <span class="midway">Washington/Wells</span> (for Residence Inn). Walk 0.1 miles to all hotels.
     trains: |
-        Train stations exist.
+        To avoid driving and parking, There are plenty of train options to get to
+        Chicago from the Chicagoland suburbs or Michigan via Metra or Amtrak.
+        The stations highlighted are all within walking distance (or short cab)
+        from the recommended hotels.
     automobiles: |
-        You really shouldn't be driving.
+        If you decide to drive into the city (although we don't recommend it!),
+        each hotel offers valet parking ($42-75 per night) and there are numerous
+        self-parking garages (~$45 daily).
+
+        We listed a few of the nearby ones, but there are plenty of others. If
+        you're looking to save some money, check out [SpotHero](http://www.spothero.com)
+        to find extra availability.
+
 no_img: data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=

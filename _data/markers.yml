@@ -2,21 +2,31 @@
     location:
         lat: 41.890569
         lng: -87.636351
+    image: img/wedding/church.jpg
     content: |
-        #### Church
+        ### Church
+
+        Assumption Catholic Church<br/>
+        323 West Illinois St., Chicago, IL 60654<br/>
+        [assumption-chgo.org](http://www.assumption-chgo.org)
 
   - key: reception
     location:
         lat: 41.880947
         lng: -87.624957
+    image: img/wedding/reception.jpg
     content: |
-        #### Reception
+        ### Reception
+
+        The University Club<br/>
+        76 East Monroe, Chicago, IL 60603<br/>
+        [ucco.com](http://www.ucco.com)
 
   - key: palmer
     location:
         lat: 41.880604
         lng: -87.627
-    image: img/accomodations/palmer.png
+    image: img/accommodations/palmer.png
     content: |
         ### The Palmer House Hilton
         *A block from the reception!*<br/>
@@ -31,7 +41,7 @@
     location:
         lat: 41.8823
         lng: -87.624957
-    image: img/accomodations/club.png
+    image: img/accommodations/club.png
     content: |
         ### University Club
         *Same place as the reception!*<br/>
@@ -45,7 +55,7 @@
     location:
         lat: 41.8816
         lng: -87.632197
-    image: img/accomodations/residence.png
+    image: img/accommodations/residence.png
     content: |
         ### The Residence Inn Chicago Downtown/Loop
         *4.5 blocks (0.4 mi) from the reception!*<br/>
@@ -59,12 +69,98 @@
     location:
         lat: 41.974162
         lng: -87.907321
+    image: img/travel/ohare.jpg
     content: |
-        #### O'Hare
+        ### O'Hare
+
+        **CTA:** $5 from / $2.25 to, 45-55 minutes<br/>
+        **Taxi:** $45-55, 30-75 minutes<br/>
+        **Lyft/Uber:** $30-40, 30-75 minutes
 
   - key: midway
     location:
         lat: 41.786776
         lng: -87.752188
+    image: img/travel/midway.jpg
     content: |
-        #### Midway
+        ### Midway
+
+        **CTA:** $2.25, 40 minutes<br/>
+        **Cab:** $40-50, 30-60 minutes<br/>
+        **Lyft/Uber:** $25-35, 30-60 minutes
+
+  - key: union
+    location:
+        lat: 41.878674
+        lng: -87.640333
+    image: img/travel/union.jpg
+    content: |
+        ### Union Station
+        *0.6-0.9 mi walk to hotels*
+
+  - key: ogilvie
+    location:
+        lat: 41.882219
+        lng: -87.640530
+    image: img/travel/ogilvie.jpg
+    content: |
+        ### Ogilvie Station
+        *0.6-0.9 mi walk to hotels*
+
+  - key: millennium
+    location:
+        lat: 41.884376
+        lng: -87.624734
+    image: img/travel/millennium.jpg
+    content: |
+        ### Millennium Station
+        *0.2-0.6 mi walk to hotels*
+
+  - key: lasalle
+    location:
+        lat: 41.875381
+        lng: -87.632180
+    image: img/travel/lasalle.jpg
+    content: |
+        ### LaSalle Street Station
+        *0.5-0.7 mi walk to hotels*
+
+  - key: millennium-garage
+    location:
+        lat: 41.882699
+        lng: -87.620316
+    content: |
+        ### Millennium Garages Self-Parking
+
+        Call <span class="mono">312-616-0600</span> for more information. One
+        thing to note is that there are multiple entrances:
+
+         * East Monroe Garage: Entrance is on Columbus Street, Just East of
+           Michigan Avenue and Just South of East Randolph Street.
+         * Grant Park North Garage: Entrance is on North Michigan Avenue between
+           Monroe Street (from the South, heading North) and Washington Street
+           (from the North, heading South)
+         * Grant Park South Garage: Entrance is on North Michigan Avenue between
+           Congress Parkway (from the South, heading North), and Adams Street
+           (from the North, heading South).
+
+  - key: monroe-garage
+    location:
+        lat: 41.880467
+        lng: -87.625838
+    content: |
+        ### 55 E Monroe
+
+  - key: wells-garage
+    location:
+        lat: 41.881549
+        lng: -87.634157
+    content: |
+        ### 10 S Wells
+
+  - key: madison-garage
+    location:
+        lat: 41.882380
+        lng: -87.633428
+    content: |
+        ### 172 West Madison

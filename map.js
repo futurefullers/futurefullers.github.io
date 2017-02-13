@@ -151,15 +151,27 @@ function travelMap () {
         info: mapper.data.info.midway
     });
 
-    parking = mapper.base($('.parking-map'));
-    mapper.marker({
-        map: parking,
-        position: mapper.data.locations.palmer,
-        icon: 'local_parking',
-        color: colors.navy,
-        info: mapper.data.info.palmer
+    train = mapper.base($('.train-map'), {zoom: 14});
+    ['lasalle', 'ogilvie', 'millennium', 'union'].forEach(key => {
+        mapper.marker({
+            map: train,
+            position: mapper.data.locations[key],
+            icon: 'train',
+            color: colors.navy,
+            info: mapper.data.info[key]
+        });
     });
-    train = mapper.base($('.train-map'));
+
+    parking = mapper.base($('.parking-map'), {zoom: 14});
+    ['wells-garage', 'millennium-garage', 'madison-garage', 'monroe-garage'].forEach(key => {
+        mapper.marker({
+            map: parking,
+            position: mapper.data.locations[key],
+            icon: 'local_parking',
+            color: colors.navy,
+            info: mapper.data.info[key]
+        });
+    });
 }
 
 /**
