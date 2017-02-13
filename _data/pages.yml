@@ -113,7 +113,6 @@ travel:
         Follow the signs through O'Hare to the <span class="ohare">CTA Blue Line</span> train.
         Take CTA downtown to <span class="ohare">Monroe</span> stop (for University Club/Palmer House)
         or <span class="ohare">Washington</span> (for Residence Inn).
-        Short walk to all recommended hotels (~0.25 miles).
 
         #### Midway
 
@@ -121,7 +120,7 @@ travel:
 
         Follow the signs through Midway to the <span class="midway">CTA Orange Line</span> train.
         Take CTA downtown to <span class="midway">Adams/Wabash</span> (for University Club/Palmer House)
-        or <span class="midway">Washington/Wells</span> (for Residence Inn). Walk 0.1 miles to all hotels.
+        or <span class="midway">Washington/Wells</span> (for Residence Inn).
     trains: |
         To avoid driving and parking, There are plenty of train options to get to
         Chicago from the Chicagoland suburbs or Michigan via Metra or Amtrak.

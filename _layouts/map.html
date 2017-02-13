@@ -14,7 +14,7 @@ layout: default
     mapper.data.locations['{{ marker.key }}'] = {{ marker.location | jsonify }};
     mapper.data.info['{{ marker.key }}'] = `{{ marker.content | markdownify }}`;
   {% if marker.image %}
-    img = `<img class="map-image" src="{{ marker.image }}" srcset="${'{{ marker.image }}'.replace('.', '@2x.')} 2x">`;
+    img = `<img width="300px" class="map-image" src="{{ marker.image }}" srcset="${'{{ marker.image }}'.replace('.', '@2x.')} 2x">`;
     mapper.data.info['{{ marker.key }}'] = img + mapper.data.info['{{ marker.key }}'];
   {% endif %}
   {% endfor %}
