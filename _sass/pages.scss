@@ -1,7 +1,52 @@
-.main-image {
-  height: auto;
-  margin-top: -100px;
+.clock-container {
+  display: none;
+  left: 50%;
+  position: absolute;
+  top: 10%;
+  z-index: 2;
+
+  @media (min-width: 992px) {
+    display: inline;
+  }
+}
+
+.clock {
+  color: $white;
+  font-size: 30px;
+  font-weight: 100;
+  left: -50%;
+  position: relative;
+  text-align: center;
+
+  > div {
+    background: $gray;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  div > span {
+    background: $gray;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 15px;
+  }
+
+  .smalltext {
+    font-size: 10px;
+    padding-top: 5px;
+    text-transform: uppercase;
+  }
+}
+
+.img-fluid {
   width: 100%;
+}
+
+.gallery-row {
+  @media (min-width: 768px) {
+    margin-bottom: 30px;
+  }
 }
 
 .info {
