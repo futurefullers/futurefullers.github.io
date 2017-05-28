@@ -11,7 +11,7 @@
 }
 
 .clock {
-  color: $white;
+  color: $gray;
   font-size: 30px;
   font-weight: 100;
   left: -50%;
@@ -19,14 +19,14 @@
   text-align: center;
 
   > div {
-    background: $gray;
+    background: $white;
     border-radius: 3px;
     display: inline-block;
     padding: 10px;
   }
 
   div > span {
-    background: $gray;
+    background: $white;
     border-radius: 3px;
     display: inline-block;
     padding: 15px;
