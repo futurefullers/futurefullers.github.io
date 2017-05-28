@@ -8,6 +8,7 @@ Uses imagemagick to convert all the files to web ready format.
 import subprocess
 import sys
 import os
+from random import shuffle
 import yaml
 
 from PIL import Image
@@ -48,5 +49,6 @@ for f in os.listdir(directory):
     data.append({'width': w, 'height': h, 'name': i})
     i += 1
 
+shuffle(data)
 with open('gallery.yml', 'w') as out_file:
     yaml.dump({'images': data}, out_file, default_flow_style=False)
