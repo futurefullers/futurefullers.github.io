@@ -10,7 +10,7 @@ permalink: /gallery
           {% for image in site.data.gallery.images %}
             <a href="/img/gallery/full/{{image.name}}.jpg" data-height="{{image.height}}" data-width="{{image.width}}"
                data-toggle="lightbox" data-gallery="home-gallery" class="col-sm-4">
-                <img src="/img/gallery/thumb/{{image.name}}.jpg" class="img-fluid">
+                <img src="/img/gallery/thumb/{{image.name}}.jpg" data-rjs="2" class="img-fluid">
             </a>
             {% assign loopindex = forloop.index | modulo: 3 %}
             {% if loopindex == 0 %}
@@ -22,6 +22,6 @@ permalink: /gallery
     </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/2.1.1/retina.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/2.1.1/retina.min.js"></script>
 <script src="/gallery.js"></script>
