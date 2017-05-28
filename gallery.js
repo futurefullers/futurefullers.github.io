@@ -1,5 +1,5 @@
 /* jshint globalstrict: true, undef: true, unused: true, esversion: 6 */
-/* global document, $ */
+/* global document, $, Layzr */
 'use strict';
 
 $(() => {
@@ -7,4 +7,5 @@ $(() => {
         event.preventDefault();
         $(this).ekkoLightbox();
     });
+    Layzr().update().check().handlers(true);
 });
