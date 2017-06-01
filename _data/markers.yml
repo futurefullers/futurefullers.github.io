@@ -26,7 +26,7 @@
     location:
         lat: 41.880604
         lng: -87.627
-    image: img/accommodations/palmer.png
+    image: img/hotels/palmer.png
     content: |
         ### The Palmer House Hilton
         *A block from the reception!*<br/>
@@ -41,7 +41,7 @@
     location:
         lat: 41.8823
         lng: -87.624957
-    image: img/accommodations/club.png
+    image: img/hotels/club.png
     content: |
         ### University Club
         *Same place as the reception!*<br/>
@@ -55,7 +55,7 @@
     location:
         lat: 41.8816
         lng: -87.632197
-    image: img/accommodations/residence.png
+    image: img/hotels/residence.png
     content: |
         ### The Residence Inn Chicago Downtown/Loop
         *4.5 blocks (0.4 mi) from the reception!*<br/>
