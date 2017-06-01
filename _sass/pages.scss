@@ -67,3 +67,35 @@
 .midway {
   color: $cta-orange;
 }
+
+.registry-info p {
+  margin-top: 20px;
+  text-align: center;
+
+  @media (min-width: 992px) {
+    font-size: 18px;
+  }
+}
+
+.registry-image {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.registry-thanks {
+  display: none;
+}
+
+.registry-item {
+  padding: 25px;
+
+  @media (min-width: 768px) {
+    padding: 50px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
