@@ -1,33 +1,36 @@
-.clock-container {
+.clock {
+  color: $gray;
   display: none;
-  left: 50%;
-  position: absolute;
-  top: 10%;
+  float: left;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: -50px;
+  position: relative;
+  text-align: center;
   z-index: 2;
 
   @media (min-width: 992px) {
-    display: inline;
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
-}
-
-.clock {
-  color: $gray;
-  font-size: 30px;
-  font-weight: 100;
-  left: -50%;
-  position: relative;
-  text-align: center;
 
   > div {
     background: $white;
-    border-radius: 3px;
+    border: 10px solid $white;
     display: inline-block;
-    padding: 10px;
+  }
+
+  > .left {
+    border-top-left-radius: 20px;
+  }
+
+  > .right {
+    border-top-right-radius: 20px;
   }
 
   div > span {
     background: $white;
-    border-radius: 3px;
     display: inline-block;
     padding: 15px;
   }
