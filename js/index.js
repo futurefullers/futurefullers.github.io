@@ -7,7 +7,8 @@ $(() => {
 
     var setClock = function () {
         var t, time;
-        t = new Date(2017, 11, 3, 21).getTime() - new Date().getTime();
+        // The month is 0-indexed. Why.
+        t = new Date(2017, 10, 3, 21).getTime() - new Date().getTime();
         if (t > 0) {
             time = {
                 days: Math.floor(t / (1000 * 60 * 60 * 24)),
