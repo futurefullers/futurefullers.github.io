@@ -162,45 +162,151 @@ garages:
 
 guide:
   cindys:
+    icon: 'local_bar'
     location:
         lat: 41.881662
         lng: -87.624969
     content: |
         #### Cindy's Rooftop Bar
-        *Around the corner and up 13 floors from the reception in the Chicago Athletic Association!*<br/>
-        *Trendy, fancy drinks!*<br/>
-        *Great views!*
+        Around the corner and up 13 floors from the reception in the Chicago Athletic Association!<br/>
+        Trendy, fancy drinks!<br/>
+        Great views!
   gage:
+    icon: 'local_dining'
     location:
         lat: 41.881299
         lng: -87.624943
     content: |
         #### The Gage
-        *Around the corner from the reception!*<br/>
-        *Gastropub with cocktails numerous craft beers on draft!*<br/>
-        *Super convenient!*
+        Around the corner from the reception!<br/>
+        Gastropub with cocktails numerous craft beers on draft!<br/>
+        Super convenient!
   millers:
+    icon: 'local_bar'
     location:
         lat: 41.879832
         lng: -87.626414
     content: |
         #### Miller's Pub
-        *Close to the reception!*<br/>
-        *Fancier dive bar with many beers on draft!*<br/>
-        *Open since 1935!*
-  kilt:
-    location:
-        lat: 41.882705
-        lng: -87.625877
-    content: |
-        #### Tilted Kilt
-        *Mix of a sports bar and a Scottish Hooters!*<br/>
-        *Sometimes Cheaper Beer! Lots of TVs!*<br/>
-        *Not exactly family friendly!*
+        Close to the reception!<br/>
+        Fancier dive bar with many beers on draft!<br/>
+        Open since 1935!
   blonde:
+    icon: 'local_bar'
     location:
         lat: 41.891158
         lng: -87.634238
     content: |
         #### Bottled Blonde
-        *If you want to skip the free shuttle and bar crawl to the reception, this is a good starting point!*<br/>
+        If you want to skip the free shuttle and instead bar crawl to the reception, this is a good starting point!
+  intelligentsia:
+    icon: 'local_cafe'
+    location:
+        lat: 41.884352
+        lng: -87.625787
+    content: |
+        #### Intelligentsia
+        Chicago's high-end coffee of choice. Pick some up before or after the wedding!
+  big-star:
+    icon: 'local_dining'
+    location:
+      lat: 41.9091
+      lng: -87.677
+    content: |
+        #### Big Star
+        *Great tacos!*
+        *In a cool neighborhood!*
+        *Outdoor seating if it's somehow warm!*
+  violet-hour:
+    icon: 'local_bar'
+    location:
+      lat: 41.909
+      lng: -87.6778
+    content: |
+        #### Violet Hour
+        *Fun speakeasy!*
+        *Great while waiting for a table at Big Star!*
+  piece:
+    icon: 'local_dining'
+    location:
+      lat: 41.910300
+      lng: -87.676122
+    content: |
+        #### Piece Pizza
+        Makes New-Haven-style thin crust pizza *and* their own beer. Pat loves it!
+  chicago-q:
+    icon: 'local_dining'
+    location:
+      lat: 41.903606
+      lng: -87.630416
+    content: |
+        #### Chicago Q
+        A solid BBQ choice for sit-down upscale, but you may also
+        want to look into Lilly Q or Smokehouse if you have a smaller, more
+        flexible group.
+  second-city:
+    icon: 'local_activity'
+    location:
+      lat: 41.911526
+      lng: -87.635373
+    content: |
+        #### Second City
+        If you can swing it, **do this**! The main stage sells out quickly, so
+        remember to purchase tickets a week or two in advance.
+  boat-tour:
+    icon: 'local_activity'
+    location:
+      lat: 41.890609
+      lng: -87.614862
+    content: |
+        #### Architecture Boat Tour
+        It somehow took Pat and Kelly six years before they went on this boat
+        cruise, but it's since become a go-to spot to take new visitors. If
+        weather permits, you should check it out!
+  haymarket:
+    icon: 'local_bar'
+    location:
+      lat: 41.884128
+      lng: -87.647246
+    content: |
+        #### Haymarket
+        One of Kelly and Pat's favorite places to grab a beer. They make their
+        own, and new styles are always on tap!
+  au-cheval:
+    icon: 'local_dining'
+    location:
+      lat: 41.884658
+      lng: -87.647667
+    content: |
+        #### Au Cheval
+        One of the best burgers in the city. Five-hour waits are not unheard
+        of, so put your name in early then go grab some drinks at Haymarket.
+  wrigley:
+    icon: 'local_activity'
+    location:
+      lat: 41.948438
+      lng: -87.655333
+    content: |
+        #### Wrigley Field
+        An iconic stadium right in the middle of a Chicago neighborhood. Even if
+        nothing's going on at the field, there's always lots of activity at the
+        surrounding bars.
+  sluggers:
+    icon: 'local_bar'
+    location:
+      lat: 41.946590
+      lng: -87.656222
+    content: |
+        #### Sluggers
+        I'm calling this bar out because they have drunk batting cages. Some of
+        you would be in to that.
+  crisp:
+    icon: 'local_restaurant'
+    location:
+      lat: 41.936113
+      lng: -87.644528
+    content: |
+        #### Crisp
+        This is where Pat took Kelly on their first date! Well, where he tried
+        to take her - turns out they close at 9. It's Korean fried chicken,
+        and it's delicious. Way better than non-Korean fried chicken.

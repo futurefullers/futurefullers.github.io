@@ -180,7 +180,7 @@ function chicagoMap () {
             map: map,
             data: data,
             shape: 'mini',
-            icon: 'local_bar',
+            icon: data.icon,
             color: colors.navy
         })
     );
