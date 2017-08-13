@@ -6,17 +6,23 @@ layout: default
 
 <script src="/js/map.js"></script>
 <script>
-    var img;
-    mapper.data = {{ site.data.maps | jsonify }};
+    mapper.config = {{ site.data.maps | jsonify }};
+    mapper.data = {{ site.data.markers | jsonify }};
 
-    mapper.data.info = {};
-  {% for marker in site.data.markers %}
-    mapper.data.locations['{{ marker.key }}'] = {{ marker.location | jsonify }};
-    mapper.data.info['{{ marker.key }}'] = `{{ marker.content | markdownify }}`;
-  {% if marker.image %}
-    img = `<img width="300px" class="map-image" src="{{ marker.image }}" srcset="${'{{ marker.image }}'.replace('.', '@2x.')} 2x">`;
-    mapper.data.info['{{ marker.key }}'] = img + mapper.data.info['{{ marker.key }}'];
+  {% for category in site.data.markers %}
+  {% for marker in category[1] %}
+  {% if marker[1].image %}
+    mapper.data['{{ category[0] }}']['{{ marker[0] }}'].content = `
+      <img width="300px"
+           class="map-image"
+           src="{{ marker[1].image }}"
+           srcset="${'{{ marker[1].image }}'.replace('.', '@2x.')} 2x" />
+      {{ marker[1].content | markdownify }}
+      `.replace(/\n\s+/, '');
+  {% else %}
+    mapper.data['{{ category[0] }}']['{{ marker[0] }}'].content = `{{ marker[1].content | markdownify }}`;
   {% endif %}
+  {% endfor %}
   {% endfor %}
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.data.maps.key }}&callback={{ page.callback }}"></script>

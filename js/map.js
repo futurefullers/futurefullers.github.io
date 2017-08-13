@@ -21,7 +21,6 @@ var colors = {
  * Basic functions to simplify the Google Maps API.
  */
 var mapper = {
-    data: {},
     /**
      * Creates and returns a map object with some defaults set.
      */
@@ -29,8 +28,8 @@ var mapper = {
         var map;
         map =  new google.maps.Map($selector[0], {
             zoom: options.hasOwnProperty('zoom') ? options.zoom : 15,
-            center: options.hasOwnProperty('center') ? options.center : this.data.locations.center,
-            styles: this.data.style,
+            center: options.hasOwnProperty('center') ? options.center : this.config.locations.center,
+            styles: this.config.style,
             scrollwheel: false,
             navigationControl: false,
             mapTypeControl: false,
@@ -39,17 +38,15 @@ var mapper = {
         map.infowindow = new google.maps.InfoWindow({maxWidth: 300});
         this.marker({
             map: map,
-            position: this.data.locations.church,
+            data: this.data.wedding.church,
             icon: 'favorite_border',
-            color: colors.champagne,
-            info: this.data.info.church
+            color: colors.champagne
         });
         this.marker({
             map: map,
-            position: this.data.locations.reception,
+            data: this.data.wedding.reception,
             icon: 'local_bar',
-            color: colors.champagne,
-            info: this.data.info.reception
+            color: colors.champagne
         });
 
         // Fading in. Delay is due to lack of handler on map loading.
@@ -63,13 +60,22 @@ var mapper = {
      * Makes a marker using custom options.
      */
     marker: function (options) {
-        var marker;
+        var marker, labelOrigin, fontSize;
+
+        if (options.hasOwnProperty('shape') && options.shape === 'mini') {
+            labelOrigin = new google.maps.Point(0, -12.5);
+            fontSize = '14px';
+        } else {
+            labelOrigin = new google.maps.Point(0, -25);
+            fontSize = '36px';
+        }
+
         marker = new google.maps.Marker({
             map: options.map,
-            position: options.position,
+            position: options.data.location,
             icon: {
-                labelOrigin: new google.maps.Point(0, -25),
-                path: this.data.pins.square,
+                labelOrigin: labelOrigin,
+                path: this.config.pins[options.hasOwnProperty('shape') ? options.shape : 'square'],
                 fillColor: options.color,
                 fillOpacity: 1,
                 strokeWeight: 0
@@ -77,22 +83,22 @@ var mapper = {
             label: {
                 color: '#fff',
                 fontFamily: 'Material Icons',
-                fontSize: '36px',
+                fontSize: fontSize,
                 text: options.icon
             }
         });
         marker.addListener('click', () => {
             var info = options.map.infowindow;
-            if (info.content === options.info) {
+            if (info.content === options.data.content) {
                 info.setContent(null);
                 info.close();
             } else {
-                info.setContent(options.info);
+                info.setContent(options.data.content);
                 info.open(options.map, marker);
             }
         });
         if (options.open) {
-            options.map.infowindow.setContent(options.info);
+            options.map.infowindow.setContent(options.data.content);
             options.map.infowindow.open(options.map, marker);
         }
     }
@@ -103,28 +109,15 @@ var mapper = {
  */
 function hotelMap () {
     var map = mapper.base($('.hotel-map'));
-    mapper.marker({
-        map: map,
-        position: mapper.data.locations.palmer,
-        icon: 'hotel',
-        color: colors.navy,
-        info: mapper.data.info.palmer
-    });
-    mapper.marker({
-        map: map,
-        position: mapper.data.locations.residence,
-        icon: 'hotel',
-        color: colors.navy,
-        info: mapper.data.info.residence
-    });
-    mapper.marker({
-        map: map,
-        position: mapper.data.locations.university,
-        icon: 'hotel',
-        color: colors.navy,
-        info: mapper.data.info.university,
-        open: true
-    });
+    $.each(mapper.data.hotels, (key, data) =>
+        mapper.marker({
+            map: map,
+            data: data,
+            icon: 'hotel',
+            color: colors.navy,
+            open: (key === 'university')
+        })
+    );
 }
 
 /**
@@ -133,61 +126,58 @@ function hotelMap () {
 function travelMap () {
     var airport, train, parking;
     airport = mapper.base($('.airport-map'), {
-        center: mapper.data.locations.airport_center,
+        center: mapper.config.locations.airport_center,
         zoom: 11
     });
     mapper.marker({
         map: airport,
-        position: mapper.data.locations.ohare,
+        data: mapper.data.airports.ohare,
         icon: 'airplanemode_active',
-        color: colors.cta.blue,
-        info: mapper.data.info.ohare
+        color: colors.cta.blue
     });
     mapper.marker({
         map: airport,
-        position: mapper.data.locations.midway,
+        data: mapper.data.airports.midway,
         icon: 'airplanemode_active',
-        color: colors.cta.orange,
-        info: mapper.data.info.midway
+        color: colors.cta.orange
     });
-
     train = mapper.base($('.train-map'), {zoom: 14});
-    ['lasalle', 'ogilvie', 'millennium', 'union'].forEach(key => {
+    $.each(mapper.data.trains, (key, data) =>
         mapper.marker({
             map: train,
-            position: mapper.data.locations[key],
+            data: data,
             icon: 'train',
-            color: colors.navy,
-            info: mapper.data.info[key]
-        });
-    });
-
+            color: colors.navy
+        })
+    );
     parking = mapper.base($('.parking-map'), {zoom: 14});
-    ['wells-garage', 'millennium-garage', 'madison-garage', 'monroe-garage'].forEach(key => {
+    $.each(mapper.data.garages, (key, data) =>
         mapper.marker({
             map: parking,
-            position: mapper.data.locations[key],
+            data: data,
             icon: 'local_parking',
-            color: colors.navy,
-            info: mapper.data.info[key]
-        });
-    });
+            color: colors.navy
+        })
+    );
 }
 
 /**
  * Called on load of Chicago guide page.
  */
 function chicagoMap () {
-    var map = mapper.base($('.chicago-map'));
-    ['cindys', 'millers', 'gage', 'kilt', 'blonde'].forEach(key => {
+    var map = mapper.base($('.chicago-map'), {
+        center: mapper.config.locations.guide_center,
+        zoom: 13
+    });
+    $.each(mapper.data.guide, (key, data) =>
         mapper.marker({
             map: map,
-            position: mapper.data.locations[key],
+            data: data,
+            shape: 'mini',
             icon: 'local_bar',
-            color: colors.navy,
-            info: mapper.data.info[key]
-        });
-    });
+            color: colors.navy
+        })
+    );
 }
 
 /**

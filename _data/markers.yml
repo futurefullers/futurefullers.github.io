@@ -1,4 +1,5 @@
-  - key: church
+wedding:
+  church:
     location:
         lat: 41.890569
         lng: -87.636351
@@ -9,8 +10,7 @@
         Assumption Catholic Church<br/>
         323 West Illinois St., Chicago, IL 60654<br/>
         [assumption-chgo.org](http://www.assumption-chgo.org)
-
-  - key: reception
+  reception:
     location:
         lat: 41.880947
         lng: -87.624957
@@ -22,7 +22,8 @@
         76 East Monroe, Chicago, IL 60603<br/>
         [ucco.com](http://www.ucco.com)
 
-  - key: palmer
+hotels:
+  palmer:
     location:
         lat: 41.880604
         lng: -87.627
@@ -36,8 +37,7 @@
         Book [online](https://aws.passkey.com/go/RochFuller) or call
         <span class="mono">(877)865-5321</span>
         using code <span class="mono">R1W</span>.
-
-  - key: university
+  university:
     location:
         lat: 41.8823
         lng: -87.624957
@@ -50,8 +50,7 @@
         *Weird rules about 'no jeans' during the week!*
 
         Call <span class="mono">(312)726-2840</span>, ask for guest room reservations, and mention our wedding.
-
-  - key: residence
+  residence:
     location:
         lat: 41.8816
         lng: -87.632197
@@ -65,7 +64,8 @@
         Book [online](http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Rocheleau%20-%20Fuller%20Wedding%5Echirl%60rfwrfwa%60212.00%60USD%60false%604%6011/2/17%6011/5/17%6010/12/17&app=resvlink&stop_mobi=yes)
         or call <span class="mono">(800)228-9290</span> and mention our wedding.
 
-  - key: ohare
+airports:
+  ohare:
     location:
         lat: 41.974162
         lng: -87.907321
@@ -76,8 +76,7 @@
         **CTA:** $5 from / $2.25 to, 45-55 minutes<br/>
         **Taxi:** $45-55, 30-75 minutes<br/>
         **Lyft/Uber:** $30-40, 30-75 minutes
-
-  - key: midway
+  midway:
     location:
         lat: 41.786776
         lng: -87.752188
@@ -89,7 +88,8 @@
         **Cab:** $40-50, 30-60 minutes<br/>
         **Lyft/Uber:** $25-35, 30-60 minutes
 
-  - key: union
+trains:
+  union:
     location:
         lat: 41.878674
         lng: -87.640333
@@ -97,8 +97,7 @@
     content: |
         ### Union Station
         *0.6-0.9 mi walk to hotels*
-
-  - key: ogilvie
+  ogilvie:
     location:
         lat: 41.882219
         lng: -87.640530
@@ -106,8 +105,7 @@
     content: |
         ### Ogilvie Station
         *0.6-0.9 mi walk to hotels*
-
-  - key: millennium
+  millennium:
     location:
         lat: 41.884376
         lng: -87.624734
@@ -115,8 +113,7 @@
     content: |
         ### Millennium Station
         *0.2-0.6 mi walk to hotels*
-
-  - key: lasalle
+  lasalle:
     location:
         lat: 41.875381
         lng: -87.632180
@@ -125,7 +122,8 @@
         ### LaSalle Street Station
         *0.5-0.7 mi walk to hotels*
 
-  - key: millennium-garage
+garages:
+  millennium-garage:
     location:
         lat: 41.882699
         lng: -87.620316
@@ -143,29 +141,27 @@
          * Grant Park South Garage: Entrance is on North Michigan Avenue between
            Congress Parkway (from the South, heading North), and Adams Street
            (from the North, heading South).
-
-  - key: monroe-garage
+  monroe-garage:
     location:
         lat: 41.880467
         lng: -87.625838
     content: |
         ### 55 E Monroe
-
-  - key: wells-garage
+  wells-garage:
     location:
         lat: 41.881549
         lng: -87.634157
     content: |
         ### 10 S Wells
-
-  - key: madison-garage
+  madison-garage:
     location:
         lat: 41.882380
         lng: -87.633428
     content: |
         ### 172 West Madison
 
-  - key: cindys
+guide:
+  cindys:
     location:
         lat: 41.881662
         lng: -87.624969
@@ -175,8 +171,7 @@
         *Around the corner and up 13 floors from the reception in the Chicago Athletic Association!*<br/>
         *Trendy, fancy drinks!*<br/>
         *Great views!*
-
-  - key: gage
+  gage:
     location:
         lat: 41.881299
         lng: -87.624943
@@ -186,8 +181,7 @@
         *Around the corner from the reception!*<br/>
         *Gastropub with cocktails numerous craft beers on draft!*<br/>
         *Super convenient!*
-
-  - key: millers
+  millers:
     location:
         lat: 41.879832
         lng: -87.626414
@@ -197,8 +191,7 @@
         *Close to the reception!*<br/>
         *Fancier dive bar with many beers on draft!*<br/>
         *Open since 1935!*
-
-  - key: kilt
+  kilt:
     location:
         lat: 41.882705
         lng: -87.625877
@@ -208,8 +201,7 @@
         *Mix of a sports bar and a Scottish Hooters!*<br/>
         *Sometimes Cheaper Beer! Lots of TVs!*<br/>
         *Not exactly family friendly!*
-
-  - key: blonde
+  blonde:
     location:
         lat: 41.891158
         lng: -87.634238
