@@ -254,6 +254,24 @@ guide:
         A solid BBQ choice for sit-down upscale, but you may also
         want to look into Lilly Q or Smokehouse if you have a smaller, more
         flexible group.
+  portillos:
+    icon: 'local_dining'
+    location:
+      lat: 41.893477
+      lng: -87.631510
+    content: |
+        #### Portillo's
+        A Chicago staple, which means it's absurdly unhealthy. Come here for
+        your chicago dogs and italian beef, and then plan to follow it up with a nap.
+  kingston-mines:
+    icon: 'local_bar'
+    location:
+      lat: 41.928650
+      lng: -87.649031
+    content: |
+        #### Kingston Mines
+        Blues until 4 AM! There's a $10 cover, but it's worth it. Makes for a
+        great Saturday night outing.
   second-city:
     icon: 'local_activity'
     location:
@@ -310,6 +328,15 @@ guide:
         #### Sluggers
         I'm calling this bar out because they have drunk batting cages. Some of
         you would be in to that.
+  tango-sur:
+    icon: 'local_dining'
+    location:
+      lat: 41.950777
+      lng: -87.663852
+    content: |
+        #### Tango Sur
+        Quality steaks at a reasonable price - and it's BYO! Great place
+        to stop after exploring Wrigleyville.
   crisp:
     icon: 'local_restaurant'
     location:
