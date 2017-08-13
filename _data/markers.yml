@@ -214,9 +214,9 @@ guide:
       lng: -87.677
     content: |
         #### Big Star
-        *Great tacos!*
-        *In a cool neighborhood!*
-        *Outdoor seating if it's somehow warm!*
+        Great tacos!
+        In a cool neighborhood!
+        Outdoor seating if it's somehow warm!
   violet-hour:
     icon: 'local_bar'
     location:
@@ -224,8 +224,8 @@ guide:
       lng: -87.6778
     content: |
         #### Violet Hour
-        *Fun speakeasy!*
-        *Great while waiting for a table at Big Star!*
+        Fun speakeasy!
+        Great while waiting for a table at Big Star!
   piece:
     icon: 'local_dining'
     location:
@@ -234,6 +234,16 @@ guide:
     content: |
         #### Piece Pizza
         Makes New-Haven-style thin crust pizza *and* their own beer. Pat loves it!
+  myopic-books:
+    icon: 'local_library'
+    location:
+      lat: 41.909826
+      lng: -87.676824
+    content: |
+        #### Myopic Books
+        If you like books, check this place out. It's famous for its sheer density
+        of used books. It's also a fire waiting to happen, so check it out before
+        it's too late!
   chicago-q:
     icon: 'local_dining'
     location:
