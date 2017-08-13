@@ -40,13 +40,15 @@ var mapper = {
             map: map,
             data: this.data.wedding.church,
             icon: 'favorite_border',
-            color: colors.champagne
+            color: colors.champagne,
+            zIndex: -1
         });
         this.marker({
             map: map,
             data: this.data.wedding.reception,
             icon: 'local_bar',
-            color: colors.champagne
+            color: colors.champagne,
+            zIndex: -1
         });
 
         // Fading in. Delay is due to lack of handler on map loading.
@@ -60,19 +62,23 @@ var mapper = {
      * Makes a marker using custom options.
      */
     marker: function (options) {
-        var marker, labelOrigin, fontSize;
+        var marker, labelOrigin, fontSize, infoContent;
 
+        // Handles mini-sized pins
         if (options.hasOwnProperty('shape') && options.shape === 'mini') {
             labelOrigin = new google.maps.Point(0, -12.5);
             fontSize = '14px';
+            infoContent = `<div style="width: 150px; font-size: 75%;">${options.data.content}</div>`;
         } else {
             labelOrigin = new google.maps.Point(0, -25);
             fontSize = '36px';
+            infoContent = options.data.content;
         }
 
         marker = new google.maps.Marker({
             map: options.map,
             position: options.data.location,
+            zIndex: options.hasOwnProperty('zIndex') ? options.zIndex : 0,
             icon: {
                 labelOrigin: labelOrigin,
                 path: this.config.pins[options.hasOwnProperty('shape') ? options.shape : 'square'],
@@ -89,16 +95,16 @@ var mapper = {
         });
         marker.addListener('click', () => {
             var info = options.map.infowindow;
-            if (info.content === options.data.content) {
+            if (info.content === infoContent) {
                 info.setContent(null);
                 info.close();
             } else {
-                info.setContent(options.data.content);
+                info.setContent(infoContent);
                 info.open(options.map, marker);
             }
         });
         if (options.open) {
-            options.map.infowindow.setContent(options.data.content);
+            options.map.infowindow.setContent(infoContent);
             options.map.infowindow.open(options.map, marker);
         }
     }

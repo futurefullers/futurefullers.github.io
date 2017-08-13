@@ -165,9 +165,8 @@ guide:
     location:
         lat: 41.881662
         lng: -87.624969
-    image: img/chicago/cindys.jpg
     content: |
-        ### Cindy's Rooftop Bar
+        #### Cindy's Rooftop Bar
         *Around the corner and up 13 floors from the reception in the Chicago Athletic Association!*<br/>
         *Trendy, fancy drinks!*<br/>
         *Great views!*
@@ -175,9 +174,8 @@ guide:
     location:
         lat: 41.881299
         lng: -87.624943
-    image: img/chicago/gage.jpg
     content: |
-        ### The Gage
+        #### The Gage
         *Around the corner from the reception!*<br/>
         *Gastropub with cocktails numerous craft beers on draft!*<br/>
         *Super convenient!*
@@ -185,9 +183,8 @@ guide:
     location:
         lat: 41.879832
         lng: -87.626414
-    image: img/chicago/millers.jpg
     content: |
-        ### Miller's Pub
+        #### Miller's Pub
         *Close to the reception!*<br/>
         *Fancier dive bar with many beers on draft!*<br/>
         *Open since 1935!*
@@ -195,9 +192,8 @@ guide:
     location:
         lat: 41.882705
         lng: -87.625877
-    image: img/chicago/kilt.jpg
     content: |
-        ### Tilted Kilt
+        #### Tilted Kilt
         *Mix of a sports bar and a Scottish Hooters!*<br/>
         *Sometimes Cheaper Beer! Lots of TVs!*<br/>
         *Not exactly family friendly!*
@@ -205,7 +201,6 @@ guide:
     location:
         lat: 41.891158
         lng: -87.634238
-    image: img/chicago/blonde.jpg
     content: |
-        ### Bottled Blonde
+        #### Bottled Blonde
         *If you want to skip the free shuttle and bar crawl to the reception, this is a good starting point!*<br/>
