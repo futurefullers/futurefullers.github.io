@@ -5,7 +5,7 @@ callback: travelMap
 permalink: /travel
 ---
 <div class="container">
-    <div class="row">
+    <div class="row vertical-align">
         <div class="col-xs-12 col-md-4 info travel-info">
             <h1 class="cursive">Planes</h1>
             {{ site.data.pages.travel.planes | markdownify }}
@@ -14,7 +14,7 @@ permalink: /travel
             <div class="map travel-map airport-map"></div>
         </div>
     </div>
-    <div class="row row-space">
+    <div class="row row-space vertical-align">
         <div class="col-xs-12 col-md-4 info travel-info">
             <h1 class="cursive">Trains</h1>
             {{ site.data.pages.travel.trains | markdownify }}
@@ -23,7 +23,7 @@ permalink: /travel
             <div class="map travel-map train-map"></div>
         </div>
     </div>
-    <div class="row row-space">
+    <div class="row row-space vertical-align">
         <div class="col-xs-12 col-md-4 info travel-info">
             <h1 class="cursive">Automobiles</h1>
             {{ site.data.pages.travel.automobiles | markdownify }}
