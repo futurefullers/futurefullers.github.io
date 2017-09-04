@@ -175,6 +175,15 @@ function chicagoMap () {
         center: mapper.config.locations.guide_center,
         zoom: 13
     });
+    $.each(mapper.data.events, (key, data) =>
+        mapper.marker({
+            map: map,
+            data: data,
+            icon: data.icon,
+            color: colors.champagne,
+            zIndex: -1
+        })
+    );
     $.each(mapper.data.guide, (key, data) =>
         mapper.marker({
             map: map,
