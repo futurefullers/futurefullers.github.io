@@ -21,7 +21,7 @@
         {"elementType": "labels.text.fill", "featureType": "water", "stylers": [{"color": "#9e9e9e"}]}
     ],
     "locations": {
-        "center": {"lat": 41.888, "lng": -87.630},
+        "center": {"lat": 41.887, "lng": -87.633},
         "airport_center": {"lat": 41.888, "lng": -87.7},
         "guide_center": {"lat": 41.915, "lng": -87.65}
     },

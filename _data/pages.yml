@@ -64,35 +64,65 @@ story:
         Pat puts his arm around me and says "It's time...", it's a blur, and the
         rest is history!
 
+wedding:
+    - title: Welcome Drinks
+      class: welcome
+      time: |
+        Maggiano's <br/>
+        Thursday, November 2<sup>nd</sup> <br/>
+        8:30pm
+      content: |
+        If you have made the trek to Chicago a day early, we would love for you
+        to join us for cocktails from 8:30 PM to 10:30 PM at Maggiano’s
+        Little Italy (111 West Grand). A great opportunity to mix and mingle
+        with family and friends before the next day’s festivities!
+    - title: Ceremony
+      class: ceremony
+      time: |
+        Assumption Catholic Church <br/>
+        Friday, November 3<sup>rd</sup> <br/>
+        3:00pm
+      content: |
+        The wedding will begin at 3:00 PM on Friday, November 3rd at Assumption
+        Catholic Church.
 
+        Attire - We recommend long or short cocktail dresses and suits.
 
+        Transportation - Shuttles will be provided from the recommended hotels
+        to the church and back. If you are not staying at the hotels, you are
+        still welcome to ride the shuttles.
+    - title: Reception
+      class: reception
+      time: |
+        University Club <br/>
+        Friday, November 3<sup>rd</sup> <br/>
+        6:00pm
+      content: |
+        The reception will be at the University Club of Chicago with a cocktail
+        hour beginning at 6:00 PM, to be followed with dinner, drinks, dancing,
+        and an after party.
 
-wedding: |
-    ### Our Ceremony
+        Attire - We recommend long or short cocktail dresses and suits.
 
-    The wedding will begin at **3:00 p.m.** on Friday, November 3rd at
-    **Assumption Catholic Church**.
+        Transportation - Shuttles will be provided from the recommended hotels
+        to the church and back. If you are not staying at the hotels, you are
+        still welcome to ride the shuttles
 
-    ### Our Reception
-
-    The reception will be at the **University Club of Chicago** with a cocktail hour
-    beginning at **5:30/6:00 p.m.** (to be finalized soon!), to be followed with
-    dinner, drinks, dancing and an after party.
-
-    ### Attire
-
-    We recommend long or short cocktail dresses and suits.
-
-    ### Transportation
-
-    Shuttles will be provided from the recommended hotels to the church and back.
-    If you are not staying at the hotels, you are still welcome to ride the shuttles.
-
-    ### In Between Time
-
-    There may be some in between the ceremony and the reception. We would
-    recommend either relaxing back at your hotel room or posting up at a bar in
-    the area. Please refer to the [Chicago Guide](/chicago) for some bar recommendations.
+        In Between Time - There may be some in between the ceremony and the
+        reception. We would recommend either relaxing back at your hotel room
+        or posting up at a bar in the area. Please refer to the Chicago Guide
+        for some bar recommendations.
+    - title: Day After
+      class: day-after
+      time: |
+        Haymarket <br/>
+        Saturday, November 4<sup>th</sup> <br/>
+        12:00pm
+      content: |
+        If you're sticking around on Saturday, check out the [Chicago Guide](/chicago)
+        for a list of our favorite things to do around the city! We'll personally
+        be at Haymarket in West Loop from 12-4PM (ish), enjoying craft beers and
+        big ten football. If you're in the area, stop by and have a drink with us!
 
 chicago: |
     We've heard that a lot of people are taking an extra day to explore the city.

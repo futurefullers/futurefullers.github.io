@@ -58,6 +58,46 @@
   }
 }
 
+.wedding-event {
+  border-top: 3px solid $navy;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 50px;
+
+  > .cursive {
+    margin-bottom: 0;
+  }
+
+  &:hover,
+  &.selected {
+    border: 3px solid $navy;
+
+    > .circle {
+      background: $navy;
+      border: 3px solid $white;
+    }
+  }
+
+  &.selected {
+    background: $navy;
+
+    > h1,
+    > p {
+      color: $white;
+    }
+  }
+}
+
+.circle {
+  background: $white;
+  border: 3px solid $navy;
+  border-radius: 15px;
+  height: 20px;
+  margin: 0 auto;
+  margin-top: -11.5px;
+  width: 20px;
+}
+
 .vertical-align {
   align-items: center;
   display: flex;

@@ -350,7 +350,7 @@ guide:
         Quality steaks at a reasonable price - and it's BYO! Great place
         to stop after exploring Wrigleyville.
   crisp:
-    icon: 'local_restaurant'
+    icon: 'local_dining'
     location:
       lat: 41.936113
       lng: -87.644528
