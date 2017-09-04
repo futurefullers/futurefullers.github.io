@@ -199,5 +199,14 @@ function chicagoMap () {
  * Called on load of wedding page.
  */
 function weddingMap () {
-    mapper.base($('.wedding-map'));
+    var map = mapper.base($('.wedding-map'));
+    $.each(mapper.data.events, (key, data) =>
+        mapper.marker({
+            map: map,
+            data: data,
+            icon: data.icon,
+            color: colors.champagne,
+            zIndex: -1
+        })
+    );
 }
