@@ -99,8 +99,10 @@
 }
 
 .vertical-align {
-  align-items: center;
-  display: flex;
+  @media (min-width: 992px) {
+    align-items: center;
+    display: flex;
+  }
 }
 
 .ohare,
