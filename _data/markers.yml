@@ -8,7 +8,7 @@ wedding:
         ### Church
 
         Assumption Catholic Church<br/>
-        323 West Illinois St., Chicago, IL 60654<br/>
+        323 West Illinois Street, Chicago, IL 60654<br/>
         [assumption-chgo.org](http://www.assumption-chgo.org)
   reception:
     location:
@@ -19,8 +19,34 @@ wedding:
         ### Reception
 
         The University Club<br/>
-        76 East Monroe, Chicago, IL 60603<br/>
+        76 East Monroe Street, Chicago, IL 60603<br/>
         [ucco.com](http://www.ucco.com)
+
+events:
+  welcome:
+    icon: 'local_bar'
+    location:
+      lat: 41.891490
+      lng: -87.631341
+    image: img/wedding/maggianos.jpg
+    content: |
+        ### Welcome Drinks
+
+        Maggiano’s Little Italy Banquet Hall<br/>
+        111 West Grand Avenue, Chicago, IL 60654<br/>
+        [maggianos.com](http://locations.maggianos.com/illinois/chicago/516-n-clark-st./)
+  day-after:
+    icon: 'local_bar'
+    location:
+      lat: 41.884128
+      lng: -87.647246
+    image: img/wedding/haymarket.jpg
+    content: |
+        ### Day After
+
+        Haymarket Pub & Brewery<br/>
+        737 West Randolph Street, Chicago, IL 60661<br/>
+        [haymarketbrewing.com](http://www.haymarketbrewing.com/)
 
 hotels:
   palmer:
@@ -159,26 +185,6 @@ garages:
         lng: -87.633428
     content: |
         ### 172 West Madison
-
-events:
-  welcome:
-    icon: 'local_bar'
-    location:
-      lat: 41.891490
-      lng: -87.631341
-    content: |
-        #### Maggiano's
-        We've reserved an event space here for Thursday night. Come stop by if
-        you're in town!
-  day-after:
-    icon: 'local_bar'
-    location:
-      lat: 41.884128
-      lng: -87.647246
-    content: |
-        #### Haymarket
-        We'll be here on Saturday. If you're in the area, stop by and have a
-        beer with us!
 
 guide:
   cindys:
