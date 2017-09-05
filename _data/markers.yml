@@ -161,7 +161,7 @@ garages:
         ### 172 West Madison
 
 events:
-  reception:
+  welcome:
     icon: 'local_bar'
     location:
       lat: 41.891490
@@ -170,8 +170,7 @@ events:
         #### Maggiano's
         We've reserved an event space here for Thursday night. Come stop by if
         you're in town!
-
-  saturday:
+  day-after:
     icon: 'local_bar'
     location:
       lat: 41.884128

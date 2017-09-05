@@ -1,6 +1,6 @@
 /* jshint globalstrict: true, undef: true, unused: true, esversion: 6 */
 /* global setTimeout, $, google */
-/* exported mapper, hotelMap, travelMap, chicagoMap, weddingMap */
+/* exported mapper, hotelMap, travelMap, chicagoMap, weddingMap, markers */
 'use strict';
 
 /**
@@ -18,6 +18,11 @@ var colors = {
 };
 
 /**
+ * Global for map markers. Used for programmatic runtime edits.
+ */
+var markers = {};
+
+/**
  * Basic functions to simplify the Google Maps API.
  */
 var mapper = {
@@ -26,6 +31,7 @@ var mapper = {
      */
     base: function ($selector, options={}) {
         var map;
+        markers = {};
         map =  new google.maps.Map($selector[0], {
             zoom: options.hasOwnProperty('zoom') ? options.zoom : 15,
             center: options.hasOwnProperty('center') ? options.center : this.config.locations.center,
@@ -41,6 +47,7 @@ var mapper = {
             data: this.data.wedding.church,
             icon: 'favorite_border',
             color: colors.champagne,
+            key: 'ceremony',
             zIndex: -1
         });
         this.marker({
@@ -48,6 +55,7 @@ var mapper = {
             data: this.data.wedding.reception,
             icon: 'local_bar',
             color: colors.champagne,
+            key: 'reception',
             zIndex: -1
         });
 
@@ -93,7 +101,8 @@ var mapper = {
                 text: options.icon
             }
         });
-        marker.addListener('click', () => {
+
+        marker.open = () => {
             var info = options.map.infowindow;
             if (info.content === infoContent) {
                 info.setContent(null);
@@ -102,7 +111,11 @@ var mapper = {
                 info.setContent(infoContent);
                 info.open(options.map, marker);
             }
-        });
+        };
+        marker.addListener('click', marker.open);
+        if (options.hasOwnProperty('key')) {
+            markers[options.key] = marker;
+        }
         if (options.open) {
             options.map.infowindow.setContent(infoContent);
             options.map.infowindow.open(options.map, marker);
@@ -199,13 +212,14 @@ function chicagoMap () {
  * Called on load of wedding page.
  */
 function weddingMap () {
-    var map = mapper.base($('.wedding-map'));
+    var map = mapper.base($('.wedding-map'), { zoom: 14 });
     $.each(mapper.data.events, (key, data) =>
         mapper.marker({
             map: map,
             data: data,
             icon: data.icon,
             color: colors.champagne,
+            key: key,
             zIndex: -1
         })
     );
