@@ -72,10 +72,16 @@ wedding:
         Thursday, November 2<sup>nd</sup> <br/>
         8:30pm
       content: |
+        ### Welcome Drinks Details
+
         If you have made the trek to Chicago a day early, we would love for you
-        to join us for cocktails from 8:30 PM to 10:30 PM at Maggiano’s
-        Little Italy (111 West Grand). A great opportunity to mix and mingle
-        with family and friends before the next day’s festivities!
+        to join us for cocktails **from 8:30pm to 10:30pm at Maggiano’s Little
+        Italy Banquet Hall** – next door to the main restaurant. A great opportunity
+        to mix and mingle with family and friends before the next day’s festivities!
+
+        ### Address
+
+        111 West Grand Avenue, Chicago, IL 60654
     - title: Ceremony
       class: ceremony
       time: |
@@ -83,14 +89,37 @@ wedding:
         Friday, November 3<sup>rd</sup> <br/>
         3:00pm
       content: |
-        The wedding will begin at 3:00 PM on Friday, November 3rd at Assumption
-        Catholic Church.
+        ### Ceremony Details
 
-        Attire - We recommend long or short cocktail dresses and suits.
+        Our wedding will begin at **3:00pm on Friday, November 3rd at Assumption
+        Catholic Church**.
 
-        Transportation - Shuttles will be provided from the recommended hotels
-        to the church and back. If you are not staying at the hotels, you are
-        still welcome to ride the shuttles.
+        ### Address
+
+        323 West Illinois Street, Chicago, IL 60654
+
+        ### Attire
+
+        We recommend long or short cocktail dresses and suits for the entire day.
+
+        ### Transportation
+
+        Shuttles will be provided from the recommended hotels to the church at
+        2:15pm and back to the hotels after the ceremony. If you are not staying
+        at the hotels, you are still welcome to ride the shuttles to and from the
+        recommended hotels.
+
+        ### Parking
+
+        If you drive, parking for weddings is free in the Martparc at Orleans
+        and Hubbard. Your ticket can be validated for two hours free parking.
+
+        ### In Between Time
+
+        There may be some time in between the ceremony and the reception. We
+        would recommend either relaxing back at your hotel room or posting up
+        at a bar in the area. Please refer to the [Chicago Guide](/chicago) for
+        some bar recommendations.
     - title: Reception
       class: reception
       time: |
@@ -98,20 +127,25 @@ wedding:
         Friday, November 3<sup>rd</sup> <br/>
         6:00pm
       content: |
-        The reception will be at the University Club of Chicago with a cocktail
-        hour beginning at 6:00 PM, to be followed with dinner, drinks, dancing,
+        ### Reception Details
+
+        Our reception will be at the **University Club of Chicago** with a cocktail
+        hour beginning **at 6:00pm**, to be followed with dinner, drinks, dancing,
         and an after party.
 
-        Attire - We recommend long or short cocktail dresses and suits.
+        ### Address
 
-        Transportation - Shuttles will be provided from the recommended hotels
-        to the church and back. If you are not staying at the hotels, you are
-        still welcome to ride the shuttles
+        76 East Monroe Street, Chicago, IL 60603
 
-        In Between Time - There may be some in between the ceremony and the
-        reception. We would recommend either relaxing back at your hotel room
-        or posting up at a bar in the area. Please refer to the Chicago Guide
-        for some bar recommendations.
+        ### Attire
+
+        We recommend long or short cocktail dresses and suits for the entire day.
+
+        ### In Between Time
+
+        There may be some in between the ceremony and the reception. We would
+        recommend either relaxing back at your hotel room or posting up at a
+        bar in the area. Please refer to the Chicago Guide for some bar recommendations.
     - title: Day After
       class: day-after
       time: |
@@ -119,10 +153,18 @@ wedding:
         Saturday, November 4<sup>th</sup> <br/>
         12:00pm
       content: |
-        If you're sticking around on Saturday, check out the [Chicago Guide](/chicago)
-        for a list of our favorite things to do around the city! We'll personally
-        be at Haymarket in West Loop from 12-4PM (ish), enjoying craft beers and
-        big ten football. If you're in the area, stop by and have a drink with us!
+        ### Day After Details
+
+        If you’re sticking around on Saturday, check out the Chicago Guide for
+        a list of our favorite things to do around the city! We’ll personally
+        be posted up at the back bar at **Haymarket Pub & Brewery in West Loop
+        from 12:00pm – 4:00pm (ish)**, enjoying craft beers and Big Ten football.
+        If you’re in the area, stop by and have a drink with us!
+
+        ### Address
+
+        737 West Randolph Street, Chicago, IL 60661
+
 
 chicago: |
     We've heard that a lot of people are taking an extra day to explore the city.
