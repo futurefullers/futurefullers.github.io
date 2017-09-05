@@ -67,26 +67,24 @@ story:
 wedding:
     - title: Welcome Drinks
       class: welcome
+      address: 111 West Grand Avenue, Chicago, IL 60654
       time: |
         Maggiano's <br/>
         Thursday, November 2<sup>nd</sup> <br/>
         8:30pm
       content: |
-        ### Welcome Drinks Details
-
         If you have made the trek to Chicago a day early, we would love for you
         to join us for cocktails **from 8:30pm to 10:30pm at Maggiano’s Little
         Italy Banquet Hall** – next door to the main restaurant. A great opportunity
         to mix and mingle with family and friends before the next day’s festivities!
     - title: Ceremony
       class: ceremony
+      address: 323 West Illinois Street, Chicago, IL 60654
       time: |
         Assumption Catholic Church <br/>
         Friday, November 3<sup>rd</sup> <br/>
         3:00pm
       content: |
-        ### Ceremony Details
-
         Our wedding will begin at **3:00pm on Friday, November 3rd at Assumption
         Catholic Church**.
 
@@ -110,13 +108,12 @@ wedding:
         some bar recommendations.
     - title: Reception
       class: reception
+      address: 76 East Monroe Street, Chicago, IL 60603
       time: |
         University Club <br/>
         Friday, November 3<sup>rd</sup> <br/>
         6:00pm
       content: |
-        ### Reception Details
-
         Our reception will be at the **University Club of Chicago** with a cocktail
         hour beginning **at 6:00pm**, to be followed with dinner, drinks, dancing,
         and an after party.
@@ -132,13 +129,12 @@ wedding:
         bar in the area. Please refer to the [Chicago Guide](/chicago) for some bar recommendations.
     - title: Day After
       class: day-after
+      address: 737 West Randolph Street, Chicago, IL 60661
       time: |
         Haymarket <br/>
         Saturday, November 4<sup>th</sup> <br/>
         12:00pm
       content: |
-        ### Day After Details
-
         If you’re sticking around on Saturday, check out the [Chicago Guide](/chicago) for
         a list of our favorite things to do around the city! We’ll personally
         be posted up at the back bar at **Haymarket Pub & Brewery in West Loop
