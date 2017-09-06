@@ -27,11 +27,13 @@ permalink: /wedding
     </div>
     <div class="row hidden-md hidden-lg">
         {% for event in site.data.pages.wedding %}
-          <div class="col-xs-12 info">
+          <div class="col-xs-12">
               <h1 class="cursive">{{ event.title }}</h1>
               {{ event.time | markdownify }}
               <p>{{ event.address }}</p>
+              <span class="info">
               {{ event.content | markdownify }}
+              </span>
               <div class="spacer"></div>
           </div>
         {% endfor %}
