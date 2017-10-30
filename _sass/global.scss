@@ -1,10 +1,7 @@
-$black: #222;
-$gray: #444;
-$light-gray: #666;
 $offwhite: #c9c9c9;
 $white: #fff;
 
-$navy: #005;
+$navy: #213c5e;
 $champagne: #f0e68c;
 
 $cta-blue: #00a1de;
@@ -18,13 +15,17 @@ html {
 }
 
 body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
+  font-family: 'Palatino', 'Helvetica', sans-serif;
   text-align: center;
 }
 
 p,
 li {
-  color: $gray;
+  color: $navy;
+}
+
+a {
+  color: lighten($navy, 30%);
 }
 
 li {
@@ -34,8 +35,11 @@ li {
 
 h1,
 h2,
-h3 {
-  color: $black;
+h3,
+h4,
+h5,
+h6 {
+  color: $navy;
   margin-top: 10px;
 }
 
@@ -50,7 +54,7 @@ blockquote {
 }
 
 .cursive {
-  font-family: 'Allura', cursive;
+  font-family: 'Edwardian Script ITC', cursive;
 }
 
 .mono {
