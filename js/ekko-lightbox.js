@@ -1,4 +1,4 @@
-/* jshint strict: false, undef: true, unused: true, esversion: 6 */
+/* eslint-disable */
 /* global jQuery, Lightbox, document, window, setTimeout, location, console, clearTimeout */
 /* export Lightbox, $ */
 

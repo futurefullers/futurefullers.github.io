@@ -23,7 +23,7 @@ for f in os.listdir(directory):
     if not (f.lower().endswith('.jpg') or f.lower().endswith('.jpeg')):
         continue
     path = os.path.join(directory, f)
-    escaped_path = path.replace(' ', '\ ')
+    escaped_path = path.replace(' ', r'\ ')
 
     prog = ("convert -auto-orient -strip -interlace Plane -quality 80 "
             "{input} {output}"

@@ -1,11 +1,9 @@
-/* jshint globalstrict: true, undef: true, unused: true, esversion: 6 */
-/* global document, $, Layzr */
-'use strict';
+/* global $, Layzr */
 
 $(() => {
-    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-    });
-    Layzr().update().check().handlers(true);
+  $(document).on('click', '[data-toggle="lightbox"]', function openImage(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
+  Layzr().update().check().handlers(true);
 });
